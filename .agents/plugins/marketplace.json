@@ -1,0 +1,20 @@
+{
+  "name": "st67-smetchik",
+  "interface": {
+    "displayName": "ST67 Сметчик"
+  },
+  "plugins": [
+    {
+      "name": "st67-smetchik",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

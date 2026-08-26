@@ -1,0 +1,17 @@
+.superpowers/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.venv/
+.runtime/
+node_modules/
+# Локальные venv; исходный каталог runtime/ остаётся отслеживаемым.
+/venv/
+/runtime/venv/
+*.tmp
+*.log

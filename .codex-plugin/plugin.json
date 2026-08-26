@@ -1,0 +1,37 @@
+{
+  "name": "st67-smetchik",
+  "version": "0.2.0",
+  "description": "Локальная доказательная проверка сметной документации России в Excel, PDF и XML/GGE.",
+  "author": {
+    "name": "Studio 67"
+  },
+  "homepage": "https://github.com/RomanovVIII/st67-smetchik",
+  "repository": "https://github.com/RomanovVIII/st67-smetchik",
+  "license": "MIT",
+  "keywords": [
+    "смета",
+    "строительство",
+    "капитальный-ремонт",
+    "excel",
+    "pdf",
+    "xml"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ST67 Сметчик",
+    "shortDescription": "Проверка смет Excel, PDF и XML/GGE",
+    "longDescription": "Локально проверяет комплектность, расчёты, структуру стоимости и доказательность сметной документации в лёгком или полном режиме.",
+    "developerName": "Studio 67",
+    "category": "Productivity",
+    "capabilities": [
+      "Локальная проверка документов",
+      "Доказательный отчёт",
+      "Excel, PDF и XML/GGE"
+    ],
+    "defaultPrompt": [
+      "Проверь приложенную смету в режиме light.",
+      "Проверь весь комплект смет в режиме full.",
+      "Сверь ЛСР, ОСР и ССР в режиме full."
+    ]
+  }
+}

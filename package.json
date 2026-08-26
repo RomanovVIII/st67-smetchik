@@ -1,0 +1,10 @@
+{
+  "name": "st67-smetchik-development",
+  "private": true,
+  "version": "0.2.0",
+  "description": "Development-only validation dependencies for ST67 Smetchik.",
+  "license": "MIT",
+  "devDependencies": {
+    "ajv": "8.20.0"
+  }
+}

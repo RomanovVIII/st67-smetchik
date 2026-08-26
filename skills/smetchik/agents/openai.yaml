@@ -1,0 +1,6 @@
+interface:
+  display_name: "ST67 Сметчик"
+  short_description: "Проверка смет Excel, PDF и XML/GGE"
+  default_prompt: "Используй $smetchik для проверки приложенного комплекта смет. Сначала уточни режим проверки."
+policy:
+  allow_implicit_invocation: true

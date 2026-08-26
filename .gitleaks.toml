@@ -1,0 +1,10 @@
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Ignore local dependency and test caches that are never packaged"
+paths = [
+  '''(^|/)\.uv-cache/''',
+  '''(^|/)node_modules/''',
+  '''(^|/)\.pytest_cache/''',
+]
